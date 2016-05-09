@@ -1,0 +1,1 @@
+../../../NIMSDK/SDK/ExportHeaders/NIMSDKConfig.h

@@ -1,0 +1,1 @@
+../../../NIMSDK/SDK/ExportHeaders/Protocol/NIMConversationManagerProtocol.h

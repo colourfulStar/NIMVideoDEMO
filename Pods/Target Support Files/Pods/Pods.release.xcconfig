@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/NIMSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/NIMSDK/SDK" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs" $(inherited) "${PODS_ROOT}/NIMSDK/SDK/Libs"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/NIMSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"G711" -l"NIMSDK" -l"aacplus" -l"crypto" -l"event" -l"nio" -l"nts" -l"nvs" -l"openh264" -l"opus" -l"sqlite3.0" -l"ssl" -l"stdc++.6.0.9" -l"webrtc_audio" -l"yuv" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreMedia" -framework "CoreTelephony" -framework "SystemConfiguration"
+PODS_ROOT = ${SRCROOT}/Pods
